@@ -1,9 +1,22 @@
 import { useState } from "react"
 import Help from "./home-components/help/Help"
+import Header from '../global-components/header/Header'
+import Main from './home-components/main/Main'
 
 function Home() {
   return (
-    <Help />
+    <div>
+      <div style={{backgroundImage:`url(/public/source/mainimage.png)`}}>
+        <Header />
+        <Main/>
+       
+      </div> 
+      <Help />
+    </div>
+     
+    
+    
+   
   )
 }
 

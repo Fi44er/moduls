@@ -34,3 +34,10 @@ h2 {
 h3 {
   font-size: 28px;
 }
+a{
+  text-decoration: none;
+}
+button {
+  border: none;
+  background: none;
+}
