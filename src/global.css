@@ -34,8 +34,18 @@ h2 {
 h3 {
   font-size: 28px;
 }
+<<<<<<< HEAD
 
 button {
   font-family: "Evolventa";
   font-weight: 700;
 }
+=======
+a{
+  text-decoration: none;
+}
+button {
+  border: none;
+  background: none;
+}
+>>>>>>> origin
