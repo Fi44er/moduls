@@ -1,7 +1,10 @@
-import { useState } from "react";
+import { useState } from "react"
+import Help from "./home-components/help/Help"
 
 function Home() {
-  return <div>hello</div>;
+  return (
+    <Help />
+  )
 }
 
-export default Home;
+export default Home

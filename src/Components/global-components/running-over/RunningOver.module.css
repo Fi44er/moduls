@@ -1,0 +1,32 @@
+.RunningOverBlock{
+  display: flex;
+  justify-content: space-between;
+}
+.RunningOverMain {
+  margin-bottom: -100px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 94vw;
+  height: 40vh;
+  z-index: -2;
+}
+
+.RunningOverTitle {
+  bottom: -250px;
+  margin-left: -1px;
+  padding: 100px;
+  width: 90vw;
+  background-color: #fff;
+}
+
+.RunningOverTitle h2 {
+  max-width: 780px;
+}
+
+.RunningOverTitle h2 div {
+  border-bottom: 10px solid #feca57;
+  width: 115px;
+  height: 10px;
+  padding-top: 48px;
+}

@@ -1,0 +1,11 @@
+.RunningOverInfo {
+    margin-top: 80px;
+}
+
+#RunningOverInfoP {
+    padding: 30px 0 40px 0;
+}
+
+.RunningOverQuestions div:not(:last-child){
+    padding-bottom: 32px;
+}

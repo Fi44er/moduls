@@ -1,0 +1,36 @@
+@font-face {
+  font-family: "Evolventa";
+  src: url(/public/fonts/evolventa/Evolventa-Bold.otf);
+  src: url(/public/fonts/evolventa/Evolventa-BoldOblique.otf);
+  src: url(/public/fonts/evolventa/Evolventa-Oblique.otf);
+  src: url(/public/fonts/evolventa/Evolventa-Regular.otf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Evolventa";
+  padding-left: 100px;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 64px;
+}
+
+h2 {
+  font-size: 56px;
+}
+
+h3 {
+  font-size: 28px;
+}
