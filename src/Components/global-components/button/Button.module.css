@@ -1,0 +1,14 @@
+button {
+    width: 294px;
+    height: 59px;
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 10px;
+}
+
+
+.black {
+    border: #000 !important;
+    color: #fff !important;
+}

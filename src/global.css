@@ -34,3 +34,8 @@ h2 {
 h3 {
   font-size: 28px;
 }
+
+button {
+  font-family: "Evolventa";
+  font-weight: 700;
+}

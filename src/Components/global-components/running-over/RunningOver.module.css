@@ -30,3 +30,8 @@
   height: 10px;
   padding-top: 48px;
 }
+
+.RunningOverBlock {
+  display: flex;
+  justify-content: space-between;
+}

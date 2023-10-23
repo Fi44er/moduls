@@ -12,7 +12,7 @@ const RunningOver = ({ name, img, children }) => {
           {name}
           <div />
         </h2>
-        {children}
+        <div className={styles.RunningOverBlock}>{children}</div>
       </div>
     </div>
   )

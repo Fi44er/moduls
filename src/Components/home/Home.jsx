@@ -1,7 +1,8 @@
 import { useState } from "react"
+import "./home-components/help/Help"
 import Help from "./home-components/help/Help"
 
-function Home() {
+const Home = () => {
   return (
     <Help />
   )
