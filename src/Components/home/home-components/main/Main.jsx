@@ -1,3 +1,4 @@
+import Button from "../../../global-components/button/Button"
 import style from "./Main.module.css"
 function Main() {
   return (
@@ -5,15 +6,7 @@ function Main() {
       <div className={style.main}>
         <div className={style.textButton}>
           <h1>Доставим ваш груз и оформим по всем правилам</h1>
-          <button>
-            <div>
-              <p>Начать игру</p>
-              <img
-                src="/public/source/icon/arrow-mini-black.png"
-                alt="arrow-mini"
-              />
-            </div>
-          </button>
+          <Button widthBtn={270} buttonImg="black" backBtn="white">Начать игру</Button>
         </div>
         <div className={style.text}>
           <p>
