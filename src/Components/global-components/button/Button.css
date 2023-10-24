@@ -1,25 +1,19 @@
 #compButton_1i {
   border-radius: 10px;
   height: 59px;
-  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 8%;
 }
 
 #compButton_1i:hover {
   opacity: 10;
 }
 
-#compButtonText_1i {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  left: 0; right: 0;
-}
-
 .compButtonImg_1i {
-  float: right;
   width: 33px;
   height: 32px;
-  margin-right: 8%;
 }
 
 #compButtonImgArrow_white {
