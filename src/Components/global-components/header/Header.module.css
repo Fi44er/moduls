@@ -1,63 +1,59 @@
 header {
-   width: 100%;
-   height: 93px;
-   padding-top: 31px ;
+  width: 100%;
+  height: 93px;
+  padding-top: 31px;
+  display: flex;
+  justify-content: space-around;
 }
 .headerItems {
-    display: flex;
-    justify-content: left;
-    align-items: center;
+  display: flex;
+  justify-content: left;
+  align-items: center;
 }
 .headerLogo {
-    padding-left: 100px;
+  padding-left: 100px;
 }
 .headerLogo div {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
-.headerLogo  h3{
-    
-    font-size: 37px;
-    font-weight: 700;
-    line-height: 28px;
-    letter-spacing: 0.02em;
-    text-align: left;
-    color: black;
-    
-
+.headerLogo h3 {
+  font-size: 37px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: black;
 }
 .headerLogo p {
-    padding-left: 12px;
-    padding-right: 195px;
-    color:black;
+  padding-left: 12px;
+  padding-right: 195px;
+  color: black;
 }
 .headerLang button {
-    margin-left: 16px;
-    
+  margin-left: 16px;
 }
-.headerNumber{
-    display: flex;
-    justify-content: space-between;
+.headerNumber {
+  display: flex;
+  justify-content: space-between;
 }
 .headerNumber a {
-    padding-left: 64px;
-    color: black;
+  padding-left: 64px;
+  color: black;
 }
 .lookPrice {
-    padding-left: 80px;
+  padding-left: 80px;
 }
 .lookPrice div {
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .lookPrice button {
-    background-color: black;
-    color: white;
-    border-radius: 10px;
-    width: 294px;
-    height: 59px;
-    
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  width: 294px;
+  height: 59px;
 }
