@@ -1,0 +1,36 @@
+#compButton_1i {
+  border-radius: 10px;
+  height: 59px;
+  position: relative;
+}
+
+#compButton_1i:hover {
+  opacity: 10;
+}
+
+#compButtonText_1i {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0; right: 0;
+}
+
+.compButtonImg_1i {
+  float: right;
+  width: 33px;
+  height: 32px;
+  margin-right: 8%;
+}
+
+#compButtonImgArrow_white {
+  background: url(/public/source/icon/arrow-mini-white.png) no-repeat center;
+}
+
+#compButtonImgArrow_black {
+  background: url(/public/source/icon/arrow-mini.png) no-repeat center;
+}
+
+#black {
+  background-color: black;
+  color: white;
+}

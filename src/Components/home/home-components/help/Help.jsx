@@ -1,8 +1,7 @@
-import styles from "./Help.module.css"
-import RunningOver from "../../../global-components/running-over/RunningOver"
-import Point from "../../../global-components/point/Point"
-import Button from "../../../global-components/button/Button"
-
+import styles from "./Help.module.css";
+import RunningOver from "../../../global-components/running-over/RunningOver";
+import Point from "../../../global-components/point/Point";
+import Button from "../../../global-components/button/Button";
 
 const Help = () => {
   return (
@@ -37,19 +36,19 @@ const Help = () => {
           />
         </div>
         <p className={styles.RunningOverInfoP}>
-          Мы поможем вам освободить время на масштабирование бизнеса  и
+          Мы поможем вам освободить время на масштабирование бизнеса и
           привлечение клиентов.
         </p>
         <div className="RunningOverBtn">
           <p></p>
-          <Button styleBtn='black'>button</Button>
+          <Button>button</Button>
         </div>
       </div>
-      <div className={styles.RunningOverImg}>
+      <div>
         <img src="/public/source/image.png" alt="" />
       </div>
     </RunningOver>
-  )
-}
+  );
+};
 
-export default Help
+export default Help;
