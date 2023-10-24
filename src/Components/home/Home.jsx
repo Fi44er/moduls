@@ -7,11 +7,17 @@ import Main from "./home-components/main/Main"
 const Home = () => {
   return (
     <div>
-      <div style={{ backgroundImage: `url(/public/source/mainimage.png)` }}>
+      <div style={{ backgroundImage: `url(/public/source/mainimage.png)`, backgroundSize: 'cover', }}>
         <Header color="white" />
         <Main />
       </div>
-      <Help />
+      <div
+        style={{
+          paddingLeft: 100,
+        }}
+      >
+        <Help />
+      </div>
     </div>
   )
 }

@@ -2,26 +2,13 @@
   border-radius: 10px;
   height: 59px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   padding: 0 8%;
 }
 
 #compButton_1i:hover {
   opacity: 10;
-}
-
-.compButtonImg_1i {
-  width: 33px;
-  height: 32px;
-}
-
-#compButtonImgArrow_white {
-  background: url(/public/source/icon/arrow-mini-white.png) no-repeat center;
-}
-
-#compButtonImgArrow_black {
-  background: url(/public/source/icon/arrow-mini.png) no-repeat center;
 }
 
 #black {
