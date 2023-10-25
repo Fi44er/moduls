@@ -1,0 +1,26 @@
+.advantagBlock {
+  width: 100%;
+  padding: 100px;
+}
+.advantagHeader {
+  display: grid;
+  justify-content: left;
+  font-weight: 700;
+  font-size: 62px;
+}
+.advantagHeader img {
+  margin-top: 48px;
+}
+.Inside {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 80px;
+  width: 1520px;
+  height: 492px;
+}
+.Text {
+  display: grid;
+}
+.Img {
+  display: grid;
+}

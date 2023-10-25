@@ -4,6 +4,7 @@ import Help from "./home-components/help/Help"
 import Header from "../global-components/header/header"
 import Main from "./home-components/main/Main"
 import Advantages from "./home-components/advantages/advantages"
+import Advantag from "./home-components/advantag/Advantag"
 
 const Home = () => {
   return (
@@ -23,6 +24,7 @@ const Home = () => {
         }}
       >
         <Advantages />
+        <Advantag />
         <Help />
       </div>
     </div>
